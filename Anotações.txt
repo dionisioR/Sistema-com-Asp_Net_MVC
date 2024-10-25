@@ -114,6 +114,46 @@ STRING DE CONEXÃO
 - Nome da conexão [name="LojaContext"]
 - Servidor localhost [connectionString=".;]
 - Nome do banco [Initial Catalog=loja;]
---------------------------------------------------------------------
---------------------------------------------------------------------
 
+
+--------------------------------------------------------------------
+MIGRATION MANUAL
+--------------------------------------------------------------------
+- Tools / Gerenciador de Pacotes do NuGet / Console do Gerenciado de Pacotes
+
+Digite os comandos
+
+- [Vai criar o arquivo de migração]
+- Enable-Migrations -ContextTypeName LojaContext 
+
+- Add-Migration [Add < Campo criado > Model <Nome do Modelo>
+- Add-Migration AddComentarioModelProduto
+
+- [Atualiza a base de dados]
+- Update-Database
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+CRIANDO OUTRO PROJETO
+--------------------------------------------------------------------
+Cria New Project
+- C#
+- Asp.Net Web Application [.Net Framework ]
+>>>
+
+- Project Name: Sistema
+- Location: *****
+- Solution Name: Sistema
+- Framework: .Net Framework 4.7.2
+- Create
+
+SELECIONE
+- MVC, WEB FORMS e WEB API
+- Authentication [ Individual Accounts]
+- Create
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+--------------------------------------------------------------------

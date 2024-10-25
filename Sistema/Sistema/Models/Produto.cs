@@ -12,5 +12,6 @@ namespace Sistema.Models {
         public decimal Preco { get; set; }
         public DateTime UltimaCompra { get; set; }
         public float Estoque { get; set; }
+        public string Comentario { get; set; }
     }
 }

@@ -1,23 +1,23 @@
 ﻿@model Sistema.Models.Produto
 
 @{
-    ViewBag.Title = "Cadastrar Produto";
+    ViewBag.Title = "Edit";
 }
 
-<h2>Cadastrar Produto</h2>
+<h2>Editar Produto:  @Html.DisplayFor(model => model.Descricao)</h2>
 
 
-@using (Html.BeginForm()) 
-{
+@using (Html.BeginForm()) {
     @Html.AntiForgeryToken()
-    
+
 <div class="form-horizontal">
-    <h4>Produto</h4>
+
     <hr />
     @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    @Html.HiddenFor(model => model.ProdutoId)
+
     <div class="form-group">
-        @*@Html.LabelFor(model => model.Descricao, htmlAttributes: new { @class = "control-label col-md-2" })*@
-        @Html.LabelForModel("Descrição", htmlAttributes: new { @class = "control-label col-md-2" })
+        @Html.LabelFor(model => model.Descricao, htmlAttributes: new { @class = "control-label col-md-2" })
         <div class="col-md-10">
             @Html.EditorFor(model => model.Descricao, new { htmlAttributes = new { @class = "form-control" } })
             @Html.ValidationMessageFor(model => model.Descricao, "", new { @class = "text-danger" })
@@ -25,8 +25,7 @@
     </div>
 
     <div class="form-group">
-        @*@Html.LabelFor(model => model.Preco, htmlAttributes: new { @class = "control-label col-md-2" })*@
-        @Html.LabelForModel("Preço", htmlAttributes: new { @class = "control-label col-md-2" })
+        @Html.LabelFor(model => model.Preco, htmlAttributes: new { @class = "control-label col-md-2" })
         <div class="col-md-10">
             @Html.EditorFor(model => model.Preco, new { htmlAttributes = new { @class = "form-control" } })
             @Html.ValidationMessageFor(model => model.Preco, "", new { @class = "text-danger" })
@@ -34,8 +33,7 @@
     </div>
 
     <div class="form-group">
-        @*@Html.LabelFor(model => model.UltimaCompra, htmlAttributes: new { @class = "control-label col-md-2" })*@
-        @Html.LabelForModel("Última Compra", htmlAttributes: new { @class = "control-label col-md-2" })
+        @Html.LabelFor(model => model.UltimaCompra, htmlAttributes: new { @class = "control-label col-md-2" })
         <div class="col-md-10">
             @Html.EditorFor(model => model.UltimaCompra, new { htmlAttributes = new { @class = "form-control" } })
             @Html.ValidationMessageFor(model => model.UltimaCompra, "", new { @class = "text-danger" })
@@ -60,14 +58,14 @@
 
     <div class="form-group">
         <div class="col-md-offset-2 col-md-10">
-            <input type="submit" value="Cadastrar" class="btn btn-outline-dark mt-3" />
+            <input type="submit" value="Save" class="btn btn-default" />
         </div>
     </div>
 </div>
 }
 
 <div>
-    @Html.ActionLink("Voltar para Home", "Index")
+    @Html.ActionLink("Back to List", "Index")
 </div>
 
 @section Scripts {

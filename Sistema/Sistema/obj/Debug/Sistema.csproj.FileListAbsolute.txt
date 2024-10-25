@@ -106,3 +106,6 @@ F:\CSharp\Sistema-com-Asp_Net_MVC\Sistema\Sistema\obj\Debug\Sistema.csproj.CoreC
 F:\CSharp\Sistema-com-Asp_Net_MVC\Sistema\Sistema\obj\Debug\Sistema.csproj.Up2Date
 F:\CSharp\Sistema-com-Asp_Net_MVC\Sistema\Sistema\obj\Debug\Sistema.dll
 F:\CSharp\Sistema-com-Asp_Net_MVC\Sistema\Sistema\obj\Debug\Sistema.pdb
+F:\CSharp\Sistema-com-Asp_Net_MVC\Sistema\Sistema\obj\Debug\Sistema.Migrations.InitialCreate.resources
+F:\CSharp\Sistema-com-Asp_Net_MVC\Sistema\Sistema\obj\Debug\Sistema.csproj.GenerateResource.cache
+F:\CSharp\Sistema-com-Asp_Net_MVC\Sistema\Sistema\obj\Debug\Sistema.Migrations.AddComentarioModelProduto.resources

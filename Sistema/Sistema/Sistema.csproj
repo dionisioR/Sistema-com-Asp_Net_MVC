@@ -176,6 +176,15 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202410251607596_InitialCreate.cs" />
+    <Compile Include="Migrations\202410251607596_InitialCreate.Designer.cs">
+      <DependentUpon>202410251607596_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202410252300098_AddComentarioModelProduto.cs" />
+    <Compile Include="Migrations\202410252300098_AddComentarioModelProduto.Designer.cs">
+      <DependentUpon>202410252300098_AddComentarioModelProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
@@ -257,6 +266,8 @@
     <Content Include="Views\Produto\Index.cshtml" />
     <Content Include="Views\Produto\Create.cshtml" />
     <Content Include="Views\Produto\Details.cshtml" />
+    <Content Include="Views\Produto\Edit.cshtml" />
+    <Content Include="Views\Produto\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -287,6 +298,14 @@
     <Content Include="Scripts\bootstrap.bundle.js.map" />
     <Content Include="Scripts\jquery-3.7.0.slim.min.map" />
     <Content Include="Scripts\jquery-3.7.0.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202410251607596_InitialCreate.resx">
+      <DependentUpon>202410251607596_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202410252300098_AddComentarioModelProduto.resx">
+      <DependentUpon>202410252300098_AddComentarioModelProduto.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
