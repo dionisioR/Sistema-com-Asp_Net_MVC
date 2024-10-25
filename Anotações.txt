@@ -52,9 +52,68 @@ CONTROLLER
 
 
 --------------------------------------------------------------------
+BANCO DE DADOS
 --------------------------------------------------------------------
+- Projeto / Add / New Folder >>> [pasta: Context] (pasta onde 
+colocamos os arquivos de banco de dados)
+- Context / Add / Class >>> [LojaContext] 
+*** Devemos informar que a classe vai manipular os dados de 
+nossa base de dados por isso ela deve herdar de "DbContext" "System.Data.Entity"
+
+Obs: ProdutoController->Possui->LojaContext->Possui->Produto
+
+
+
 --------------------------------------------------------------------
+COMPILAR
 --------------------------------------------------------------------
+- Vamos compilar a aplicação para que os arquivos se encherguem.
+-- Build / Build Solution
+
+
+--------------------------------------------------------------------
+CRIANDO A VIEW - LIST (SELECT ALL)
+--------------------------------------------------------------------
+- Btn na action / add view
+-- View Name: Index (nome da action)
+-- Template: List
+-- Model Class: Produto
+-- Data Context Class:  LojaContext
+
+
+--------------------------------------------------------------------
+CRIANDO A VIEW - CREATE (INSERT)
+--------------------------------------------------------------------
+- Btn na action / add view
+-- View Name: Create (nome da action)
+-- Template: Create
+-- Model Class: Produto
+-- Data Context Class:  LojaContext
+
+
+
+--------------------------------------------------------------------
+CRIANDO A VIEW - DETALHES (SELECT BY ID)
+--------------------------------------------------------------------
+- Btn na action / add view
+-- View Name: Details (nome da action)
+-- Template: Details 
+-- Model Class: Produto
+-- Data Context Class:  LojaContext
+
+
+
+
+
+--------------------------------------------------------------------
+STRING DE CONEXÃO
+--------------------------------------------------------------------
+ Web.config
+<add name="LojaContext" connectionString=".;Initial Catalog=loja;Integrated Security=True" providerName="System.Data.SqlClient" />
+
+- Nome da conexão [name="LojaContext"]
+- Servidor localhost [connectionString=".;]
+- Nome do banco [Initial Catalog=loja;]
 --------------------------------------------------------------------
 --------------------------------------------------------------------
 
