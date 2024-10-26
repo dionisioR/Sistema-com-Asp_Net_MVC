@@ -136,7 +136,7 @@ Digite os comandos
 --------------------------------------------------------------------
 --------------------------------------------------------------------
 --------------------------------------------------------------------
-CRIANDO OUTRO PROJETO
+CRIANDO OUTRO PROJETO COM MIGRAÇÃO DINÂMICA
 --------------------------------------------------------------------
 Cria New Project
 - C#
@@ -159,6 +159,65 @@ SELECIONE
 CONTROLLER
 --------------------------------------------------------------------
 Crie o modelo conforme exemplo anterior
+Compile o projeto primeiro
+
+- Controller/ Add /Controller
+- MVC5 Controller With Views, Using Entity Framework
+-- Model Class: Produto
+-- Data Context Class -> Clique no [+] e adicione a sugestão
+--- [*] Generate View
+--- [*] Reference Script Libraries
+--- [*] Use a layout page
+-- Controller Name: ProdutoesController
+
+OBSERVAÇÃO: 
+- Observe que foi gerado outra string de conexão.
+- Ajuste se for necessário
+
+
+
+EXECUTE O COMANDO NO TERMINAL
+ Enable-Migrations -ContextTypeName NomeDoContexto -EnableAutomaticMigrations
+
+
+
+Será criado uma pasta 'Migrations' com o arquivo Configurations.cs
+Neste arquivo "Configurations.cs" devemos inserir um comando:
+
+ internal sealed class Configuration : DbMigrationsConfiguration<SistemaLoja.Data.SistemaLojaContext>
+ {
+     public Configuration()
+     {
+         AutomaticMigrationsEnabled = true;
+         AutomaticMigrationDataLossAllowed = true;  <<<<< [Inserir esta Linha]
+         ContextKey = "SistemaLoja.Data.SistemaLojaContext";
+     }
+
+     protected override void Seed(SistemaLoja.Data.SistemaLojaContext context)
+     {
+         //  This method will be called after migrating to the latest version.
+
+         //  You can use the DbSet<T>.AddOrUpdate() helper extension method
+         //  to avoid creating duplicate seed data.
+     }
+ }
+
+
+Agora devemos inserir uma linha de comando no arquivo "Global.asax"
+
+    public class MvcApplication : System.Web.HttpApplication
+    {
+        protected void Application_Start()
+        {
+            Database.SetInitializer(new MigrateDatabaseToLatestVersion<Data.SistemaLojaContext,Migrations.Configuration>());  <<<<< [Inserir esta Linha]
+            AreaRegistration.RegisterAllAreas();
+            GlobalConfiguration.Configure(WebApiConfig.Register);
+            FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
+            RouteConfig.RegisterRoutes(RouteTable.Routes);
+            BundleConfig.RegisterBundles(BundleTable.Bundles);
+        }
+    }
+
 --------------------------------------------------------------------
 --------------------------------------------------------------------
 --------------------------------------------------------------------

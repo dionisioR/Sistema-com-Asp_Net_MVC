@@ -1,0 +1,68 @@
+﻿@model SistemaLoja.Models.Produto
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Excluir</h2>
+
+<h3>Excluir Pemanentemente?</h3>
+<div>
+    <h4>Produto:  @Html.DisplayFor(model => model.Descricao)</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @*@Html.DisplayNameFor(model => model.Descricao)*@
+            @Html.DisplayName("Descrição")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Descricao)
+        </dd>
+
+        <dt>
+            @*@Html.DisplayNameFor(model => model.Preco)*@
+            @Html.DisplayName("Preço")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Preco)
+        </dd>
+
+        <dt>
+            @*@Html.DisplayNameFor(model => model.UltimaCompra)*@
+            @Html.DisplayName("Última Compra")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UltimaCompra)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Estoque)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Estoque)
+        </dd>
+
+        <dt>
+            @*@Html.DisplayNameFor(model => model.Comentario)*@
+            @Html.DisplayName("Comentário")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Comentario)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Excluir" class="btn btn-danger my-3" /> |
+            @Html.ActionLink("Voltar", "Index")
+        </div>
+    }
+</div>
