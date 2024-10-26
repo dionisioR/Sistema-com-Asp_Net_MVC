@@ -27,6 +27,9 @@
         <th>
             @Html.DisplayName("Comentário")
         </th>
+        <th>
+            @Html.DisplayName("Observação")
+        </th>
         <th></th>
     </tr>
 
@@ -48,9 +51,12 @@
             @Html.DisplayFor(modelItem => item.Comentario)
         </td>
         <td>
-            @Html.ActionLink("Editar", "Edit", new { id=item.ProdutoId }) |
-            @Html.ActionLink("Detalhes", "Details", new { id=item.ProdutoId }) |
-            @Html.ActionLink("Excluir", "Delete", new { id=item.ProdutoId })
+            @Html.DisplayFor(modelItem => item.Observacao)
+        </td>
+        <td>
+            @Html.ActionLink("Editar", "Edit", new { id = item.ProdutoId }) |
+            @Html.ActionLink("Detalhes", "Details", new { id = item.ProdutoId }) |
+            @Html.ActionLink("Excluir", "Delete", new { id = item.ProdutoId })
         </td>
     </tr>
 }

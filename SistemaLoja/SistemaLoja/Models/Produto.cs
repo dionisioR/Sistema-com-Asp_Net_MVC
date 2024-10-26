@@ -13,5 +13,7 @@ namespace SistemaLoja.Models {
         public DateTime UltimaCompra { get; set; }
         public float Estoque { get; set; }
         public string Comentario { get; set; }
+
+        public string Observacao { get; set; }
     }
 }

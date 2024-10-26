@@ -112,3 +112,5 @@ F:\CSharp\Sistema-com-Asp_Net_MVC\SistemaLoja\SistemaLoja\obj\Debug\SistemaLoja.
 F:\CSharp\Sistema-com-Asp_Net_MVC\SistemaLoja\SistemaLoja\obj\Debug\SistemaL.D14ADE6A.Up2Date
 F:\CSharp\Sistema-com-Asp_Net_MVC\SistemaLoja\SistemaLoja\obj\Debug\SistemaLoja.dll
 F:\CSharp\Sistema-com-Asp_Net_MVC\SistemaLoja\SistemaLoja\obj\Debug\SistemaLoja.pdb
+F:\CSharp\Sistema-com-Asp_Net_MVC\SistemaLoja\SistemaLoja\obj\Debug\SistemaLoja.Migrations.AddObservacaoModelProduto.resources
+F:\CSharp\Sistema-com-Asp_Net_MVC\SistemaLoja\SistemaLoja\obj\Debug\SistemaLoja.csproj.GenerateResource.cache
