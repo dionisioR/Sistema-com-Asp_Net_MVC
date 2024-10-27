@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "F:\\CSharp\\Sistema-com-Asp_Net_MVC\\SistemaLoja\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CD36DA0D-7874-4B50-9E9D-DF7FE776E8A3}|SistemaLoja\\SistemaLoja.csproj|f:\\csharp\\sistema-com-asp_net_mvc\\sistemaloja\\sistemaloja\\models\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD36DA0D-7874-4B50-9E9D-DF7FE776E8A3}|SistemaLoja\\SistemaLoja.csproj|solutionrelative:sistemaloja\\models\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CD36DA0D-7874-4B50-9E9D-DF7FE776E8A3}|SistemaLoja\\SistemaLoja.csproj|f:\\csharp\\sistema-com-asp_net_mvc\\sistemaloja\\sistemaloja\\models\\fornecedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD36DA0D-7874-4B50-9E9D-DF7FE776E8A3}|SistemaLoja\\SistemaLoja.csproj|solutionrelative:sistemaloja\\models\\fornecedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD36DA0D-7874-4B50-9E9D-DF7FE776E8A3}|SistemaLoja\\SistemaLoja.csproj|f:\\csharp\\sistema-com-asp_net_mvc\\sistemaloja\\sistemaloja\\models\\tipodocumento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD36DA0D-7874-4B50-9E9D-DF7FE776E8A3}|SistemaLoja\\SistemaLoja.csproj|solutionrelative:sistemaloja\\models\\tipodocumento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CD36DA0D-7874-4B50-9E9D-DF7FE776E8A3}|SistemaLoja\\SistemaLoja.csproj|f:\\csharp\\sistema-com-asp_net_mvc\\sistemaloja\\sistemaloja\\models\\fornecedorproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD36DA0D-7874-4B50-9E9D-DF7FE776E8A3}|SistemaLoja\\SistemaLoja.csproj|solutionrelative:sistemaloja\\models\\fornecedorproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD36DA0D-7874-4B50-9E9D-DF7FE776E8A3}|SistemaLoja\\SistemaLoja.csproj|f:\\csharp\\sistema-com-asp_net_mvc\\sistemaloja\\sistemaloja\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD36DA0D-7874-4B50-9E9D-DF7FE776E8A3}|SistemaLoja\\SistemaLoja.csproj|solutionrelative:sistemaloja\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TipoDocumento.cs",
-              "DocumentMoniker": "F:\\CSharp\\Sistema-com-Asp_Net_MVC\\SistemaLoja\\SistemaLoja\\Models\\TipoDocumento.cs",
-              "RelativeDocumentMoniker": "SistemaLoja\\Models\\TipoDocumento.cs",
-              "ToolTip": "F:\\CSharp\\Sistema-com-Asp_Net_MVC\\SistemaLoja\\SistemaLoja\\Models\\TipoDocumento.cs",
-              "RelativeToolTip": "SistemaLoja\\Models\\TipoDocumento.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAsAAAA",
+              "DocumentIndex": 2,
+              "Title": "Produto.cs",
+              "DocumentMoniker": "F:\\CSharp\\Sistema-com-Asp_Net_MVC\\SistemaLoja\\SistemaLoja\\Models\\Produto.cs",
+              "RelativeDocumentMoniker": "SistemaLoja\\Models\\Produto.cs",
+              "ToolTip": "F:\\CSharp\\Sistema-com-Asp_Net_MVC\\SistemaLoja\\SistemaLoja\\Models\\Produto.cs",
+              "RelativeToolTip": "SistemaLoja\\Models\\Produto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T22:38:52.49Z",
+              "WhenOpened": "2024-10-27T20:35:39.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FornecedorProduto.cs",
+              "DocumentMoniker": "F:\\CSharp\\Sistema-com-Asp_Net_MVC\\SistemaLoja\\SistemaLoja\\Models\\FornecedorProduto.cs",
+              "RelativeDocumentMoniker": "SistemaLoja\\Models\\FornecedorProduto.cs",
+              "ToolTip": "F:\\CSharp\\Sistema-com-Asp_Net_MVC\\SistemaLoja\\SistemaLoja\\Models\\FornecedorProduto.cs",
+              "RelativeToolTip": "SistemaLoja\\Models\\FornecedorProduto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T20:14:13.256Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Funcionario.cs",
-              "DocumentMoniker": "F:\\CSharp\\Sistema-com-Asp_Net_MVC\\SistemaLoja\\SistemaLoja\\Models\\Funcionario.cs",
-              "RelativeDocumentMoniker": "SistemaLoja\\Models\\Funcionario.cs",
-              "ToolTip": "F:\\CSharp\\Sistema-com-Asp_Net_MVC\\SistemaLoja\\SistemaLoja\\Models\\Funcionario.cs",
-              "RelativeToolTip": "SistemaLoja\\Models\\Funcionario.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAswBgAAAAkAAAA",
+              "Title": "Fornecedor.cs",
+              "DocumentMoniker": "F:\\CSharp\\Sistema-com-Asp_Net_MVC\\SistemaLoja\\SistemaLoja\\Models\\Fornecedor.cs",
+              "RelativeDocumentMoniker": "SistemaLoja\\Models\\Fornecedor.cs",
+              "ToolTip": "F:\\CSharp\\Sistema-com-Asp_Net_MVC\\SistemaLoja\\SistemaLoja\\Models\\Fornecedor.cs",
+              "RelativeToolTip": "SistemaLoja\\Models\\Fornecedor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T22:31:23.704Z",
+              "WhenOpened": "2024-10-27T20:13:51.502Z",
               "EditorCaption": ""
             }
           ]

@@ -14,7 +14,7 @@ namespace SistemaLoja.Models {
         public string Descricao { get; set; }
 
         // Tem uma coleção de funcionários
-        // essa linha manda para a classe funcionário uma coleção contendo as informações do tiop documento
+        //  Representa uma relação de "um para muitos" entre o modelo TipoDocumento e o modelo Funcionario
         public virtual ICollection<Funcionario> Funcionarios { get; set; }
     }
 }

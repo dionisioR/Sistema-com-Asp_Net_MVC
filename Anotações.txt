@@ -219,5 +219,38 @@ Agora devemos inserir uma linha de comando no arquivo "Global.asax"
     }
 
 --------------------------------------------------------------------
+EVITANDO DELETAR EM CASCATA
 --------------------------------------------------------------------
+No arquivo CONTEXT, adicione o seguinte código
+
+using System;
+using System.Collections.Generic;
+using System.Data.Entity;
+using System.Data.Entity.ModelConfiguration.Conventions;
+using System.Linq;
+using System.Web;
+
+namespace SistemaLoja.Data
+{
+    public class SistemaLojaContext : DbContext
+    {
+          
+        public SistemaLojaContext() : base("name=SistemaLojaContext")
+        {
+        }
+
+	//------- Adicione este código - início --------------------------
+        protected override void OnModelCreating(DbModelBuilder modelBuilder) {
+            modelBuilder.Conventions.Remove<OneToManyCascadeDeleteConvention>();
+        }
+	//------- Adicione este código - fim --------------------------
+
+        public System.Data.Entity.DbSet<SistemaLoja.Models.Produto> Produtoes { get; set; }
+
+        public System.Data.Entity.DbSet<SistemaLoja.Models.TipoDocumento> TipoDocumentoes { get; set; }
+
+        public System.Data.Entity.DbSet<SistemaLoja.Models.Funcionario> Funcionarios { get; set; }
+    }
+}
+
 --------------------------------------------------------------------
