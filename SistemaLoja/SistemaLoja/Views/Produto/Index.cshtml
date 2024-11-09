@@ -1,34 +1,30 @@
 ﻿@model IEnumerable<SistemaLoja.Models.Produto>
 
 @{
-    ViewBag.Title = "Lista de Produtos";
+    ViewBag.Title = "Index";
 }
 
 <h2>Index</h2>
 
 <p>
-    @Html.ActionLink("Cadastrar novo produto", "Create")
+    @Html.ActionLink("Create New", "Create")
 </p>
 <table class="table">
     <tr>
         <th>
-            @*@Html.DisplayNameFor(model => model.Descricao)*@
-            @Html.DisplayName("Descrição")
+            @Html.DisplayNameFor(model => model.Descricao)
         </th>
         <th>
-            @Html.DisplayName("Preço")
+            @Html.DisplayNameFor(model => model.Preco)
         </th>
         <th>
-            @Html.DisplayName("Última Compra")
+            @Html.DisplayNameFor(model => model.UltimaCompra)
         </th>
         <th>
             @Html.DisplayNameFor(model => model.Estoque)
         </th>
         <th>
-            @Html.DisplayName("Comentário")
-        </th>
-        <th>
-            @Html.DisplayName("Observação")
+            @Html.DisplayNameFor(model => model.Comentario)
         </th>
         <th></th>
     </tr>
@@ -51,12 +47,9 @@
             @Html.DisplayFor(modelItem => item.Comentario)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.Observacao)
-        </td>
-        <td>
-            @Html.ActionLink("Editar", "Edit", new { id = item.ProdutoId }) |
-            @Html.ActionLink("Detalhes", "Details", new { id = item.ProdutoId }) |
-            @Html.ActionLink("Excluir", "Delete", new { id = item.ProdutoId })
+            @Html.ActionLink("Edit", "Edit", new { id=item.ProdutoId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.ProdutoId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.ProdutoId })
         </td>
     </tr>
 }

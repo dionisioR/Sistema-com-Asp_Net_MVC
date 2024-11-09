@@ -11,107 +11,112 @@ using SistemaLoja.Models;
 
 namespace SistemaLoja.Controllers
 {
-    public class ProdutoesController : Controller
+    public class CustomizarController : Controller
     {
         private SistemaLojaContext db = new SistemaLojaContext();
 
-        // GET: Produtoes
+        // GET: Customizar
         public ActionResult Index()
         {
-            return View(db.Produtoes.ToList());
+            var customizars = db.Customizars.Include(c => c.TipoDocumento);
+            return View(customizars.ToList());
         }
 
-        // GET: Produtoes/Details/5
+        // GET: Customizar/Details/5
         public ActionResult Details(int? id)
         {
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Produto produto = db.Produtoes.Find(id);
-            if (produto == null)
+            Customizar customizar = db.Customizars.Find(id);
+            if (customizar == null)
             {
                 return HttpNotFound();
             }
-            return View(produto);
+            return View(customizar);
         }
 
-        // GET: Produtoes/Create
+        // GET: Customizar/Create
         public ActionResult Create()
         {
+            ViewBag.TipoDocumentoID = new SelectList(db.TipoDocumentoes, "TipoDocumentoID", "Descricao");
             return View();
         }
 
-        // POST: Produtoes/Create
+        // POST: Customizar/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "ProdutoId,Descricao,Preco,UltimaCompra,Estoque,Comentario")] Produto produto)
+        public ActionResult Create([Bind(Include = "CustomizarId,Nome,Telefone,Endereco,Email,Documento,TipoDocumentoID")] Customizar customizar)
         {
             if (ModelState.IsValid)
             {
-                db.Produtoes.Add(produto);
+                db.Customizars.Add(customizar);
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
 
-            return View(produto);
+            ViewBag.TipoDocumentoID = new SelectList(db.TipoDocumentoes, "TipoDocumentoID", "Descricao", customizar.TipoDocumentoID);
+            return View(customizar);
         }
 
-        // GET: Produtoes/Edit/5
+        // GET: Customizar/Edit/5
         public ActionResult Edit(int? id)
         {
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Produto produto = db.Produtoes.Find(id);
-            if (produto == null)
+            Customizar customizar = db.Customizars.Find(id);
+            if (customizar == null)
             {
                 return HttpNotFound();
             }
-            return View(produto);
+            ViewBag.TipoDocumentoID = new SelectList(db.TipoDocumentoes, "TipoDocumentoID", "Descricao", customizar.TipoDocumentoID);
+            return View(customizar);
         }
 
-        // POST: Produtoes/Edit/5
+        // POST: Customizar/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "ProdutoId,Descricao,Preco,UltimaCompra,Estoque,Comentario")] Produto produto)
+        public ActionResult Edit([Bind(Include = "CustomizarId,Nome,Telefone,Endereco,Email,Documento,TipoDocumentoID")] Customizar customizar)
         {
             if (ModelState.IsValid)
             {
-                db.Entry(produto).State = EntityState.Modified;
+                db.Entry(customizar).State = EntityState.Modified;
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
-            return View(produto);
+            ViewBag.TipoDocumentoID = new SelectList(db.TipoDocumentoes, "TipoDocumentoID", "Descricao", customizar.TipoDocumentoID);
+            return View(customizar);
         }
 
-        // GET: Produtoes/Delete/5
+        // GET: Customizar/Delete/5
         public ActionResult Delete(int? id)
         {
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Produto produto = db.Produtoes.Find(id);
-            if (produto == null)
+            Customizar customizar = db.Customizars.Find(id);
+            if (customizar == null)
             {
                 return HttpNotFound();
             }
-            return View(produto);
+            return View(customizar);
         }
 
-        // POST: Produtoes/Delete/5
+        // POST: Customizar/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
-            Produto produto = db.Produtoes.Find(id);
-            db.Produtoes.Remove(produto);
+            Customizar customizar = db.Customizars.Find(id);
+            db.Customizars.Remove(customizar);
             db.SaveChanges();
             return RedirectToAction("Index");
         }

@@ -1,0 +1,23 @@
+﻿@model SistemaLoja.ViewModels.OrdemView
+@{
+    ViewBag.Title = "Nova Ordem";
+}
+
+<h2>Nova Ordem</h2>
+
+using (Html.BeginForm()){
+    @Html.AntiForgeryToken()
+<div class="form-horizontal">
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Customizar.CustomizarId,"Pessoa ID", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.DropDownList("TipoDocumentoId", null, htmlAttributes: new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.Customizar.CustomizarId,"",new { @class = "text-danger" })
+        </div>
+    </div>
+
+
+</div>
+}
+

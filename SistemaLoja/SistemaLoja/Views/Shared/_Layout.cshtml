@@ -21,11 +21,14 @@
                     <li>@Html.ActionLink("Home", "Index", "Home", new { area = "" }, new { @class = "nav-link" })</li>
                     <li>@Html.ActionLink("Sobre", "About", "Home", new { area = "" }, new { @class = "nav-link" })</li>
                     <li>@Html.ActionLink("Contato", "Contact", "Home", new { area = "" }, new { @class = "nav-link" })</li>
-                    <li>@Html.ActionLink("Produtos", "Index", "Produtoes", new { area = "" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("Produtos", "Index", "Produto", new { area = "" }, new { @class = "nav-link" })</li>
                     <li>@Html.ActionLink("Tipo Documento", "Index", "TipoDocumento", new { area = "" }, new { @class = "nav-link" })</li>
                     <li>@Html.ActionLink("Funcionários", "Index", "Funcionario", new { area = "" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("Fornecedor", "Index", "Fornecedor", new { area = "" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("Customizar Pessoa", "Index", "Pessoa", new { area = "" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("Nova Ordem", "NovaOrdem", "Ordens", new { area = "" }, new { @class = "nav-link" })</li>
                 </ul>
-                 @Html.Partial("_LoginPartial")
+                @Html.Partial("_LoginPartial")
             </div>
         </div>
     </nav>
