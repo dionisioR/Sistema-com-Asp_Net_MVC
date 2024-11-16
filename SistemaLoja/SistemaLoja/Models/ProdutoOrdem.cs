@@ -8,8 +8,8 @@ namespace SistemaLoja.Models {
     public class ProdutoOrdem:Produto {
 
         [Display(Name ="Quantidade")]
-        [DataType(DataType.Currency)]
-        [DisplayFormat(DataFormatString ="{0:N2", ApplyFormatInEditMode = false)]
+        // [DataType(DataType.Currency)]
+        // [DisplayFormat(DataFormatString ="{0:N2", ApplyFormatInEditMode = false)]
         public float Quantidade { get; set; }
 
         [Display(Name ="Valor Total")]

@@ -320,6 +320,7 @@
     <Content Include="Views\Customizar\Details.cshtml" />
     <Content Include="Views\Customizar\Edit.cshtml" />
     <Content Include="Views\Customizar\Index.cshtml" />
+    <Content Include="Views\Ordens\AddProduto.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
