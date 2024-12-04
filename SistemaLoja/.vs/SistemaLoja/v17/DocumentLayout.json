@@ -3,32 +3,28 @@
   "WorkspaceRootPath": "F:\\CSharp\\Sistema-com-Asp_Net_MVC\\SistemaLoja\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CD36DA0D-7874-4B50-9E9D-DF7FE776E8A3}|SistemaLoja\\SistemaLoja.csproj|F:\\CSharp\\Sistema-com-Asp_Net_MVC\\SistemaLoja\\sistemaloja\\views\\ordens\\novaordem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CD36DA0D-7874-4B50-9E9D-DF7FE776E8A3}|SistemaLoja\\SistemaLoja.csproj|solutionrelative:sistemaloja\\views\\ordens\\novaordem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CD36DA0D-7874-4B50-9E9D-DF7FE776E8A3}|SistemaLoja\\SistemaLoja.csproj|f:\\csharp\\sistema-com-asp_net_mvc\\sistemaloja\\sistemaloja\\controllers\\ordenscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD36DA0D-7874-4B50-9E9D-DF7FE776E8A3}|SistemaLoja\\SistemaLoja.csproj|solutionrelative:sistemaloja\\controllers\\ordenscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD36DA0D-7874-4B50-9E9D-DF7FE776E8A3}|SistemaLoja\\SistemaLoja.csproj|f:\\csharp\\sistema-com-asp_net_mvc\\sistemaloja\\sistemaloja\\data\\sistemalojacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CD36DA0D-7874-4B50-9E9D-DF7FE776E8A3}|SistemaLoja\\SistemaLoja.csproj|F:\\CSharp\\Sistema-com-Asp_Net_MVC\\SistemaLoja\\sistemaloja\\models\\ordemstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD36DA0D-7874-4B50-9E9D-DF7FE776E8A3}|SistemaLoja\\SistemaLoja.csproj|solutionrelative:sistemaloja\\models\\ordemstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD36DA0D-7874-4B50-9E9D-DF7FE776E8A3}|SistemaLoja\\SistemaLoja.csproj|F:\\CSharp\\Sistema-com-Asp_Net_MVC\\SistemaLoja\\sistemaloja\\models\\ordem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD36DA0D-7874-4B50-9E9D-DF7FE776E8A3}|SistemaLoja\\SistemaLoja.csproj|solutionrelative:sistemaloja\\models\\ordem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD36DA0D-7874-4B50-9E9D-DF7FE776E8A3}|SistemaLoja\\SistemaLoja.csproj|F:\\CSharp\\Sistema-com-Asp_Net_MVC\\SistemaLoja\\sistemaloja\\data\\sistemalojacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD36DA0D-7874-4B50-9E9D-DF7FE776E8A3}|SistemaLoja\\SistemaLoja.csproj|solutionrelative:sistemaloja\\data\\sistemalojacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CD36DA0D-7874-4B50-9E9D-DF7FE776E8A3}|SistemaLoja\\SistemaLoja.csproj|F:\\CSharp\\Sistema-com-Asp_Net_MVC\\SistemaLoja\\sistemaloja\\views\\ordens\\addproduto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CD36DA0D-7874-4B50-9E9D-DF7FE776E8A3}|SistemaLoja\\SistemaLoja.csproj|solutionrelative:sistemaloja\\views\\ordens\\addproduto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD36DA0D-7874-4B50-9E9D-DF7FE776E8A3}|SistemaLoja\\SistemaLoja.csproj|F:\\CSharp\\Sistema-com-Asp_Net_MVC\\SistemaLoja\\sistemaloja\\views\\ordens\\novaordem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CD36DA0D-7874-4B50-9E9D-DF7FE776E8A3}|SistemaLoja\\SistemaLoja.csproj|solutionrelative:sistemaloja\\views\\ordens\\novaordem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD36DA0D-7874-4B50-9E9D-DF7FE776E8A3}|SistemaLoja\\SistemaLoja.csproj|F:\\CSharp\\Sistema-com-Asp_Net_MVC\\SistemaLoja\\sistemaloja\\models\\produtoordem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD36DA0D-7874-4B50-9E9D-DF7FE776E8A3}|SistemaLoja\\SistemaLoja.csproj|solutionrelative:sistemaloja\\models\\produtoordem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD36DA0D-7874-4B50-9E9D-DF7FE776E8A3}|SistemaLoja\\SistemaLoja.csproj|F:\\CSharp\\Sistema-com-Asp_Net_MVC\\SistemaLoja\\sistemaloja\\controllers\\fornecedorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD36DA0D-7874-4B50-9E9D-DF7FE776E8A3}|SistemaLoja\\SistemaLoja.csproj|solutionrelative:sistemaloja\\controllers\\fornecedorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD36DA0D-7874-4B50-9E9D-DF7FE776E8A3}|SistemaLoja\\SistemaLoja.csproj|F:\\CSharp\\Sistema-com-Asp_Net_MVC\\SistemaLoja\\sistemaloja\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD36DA0D-7874-4B50-9E9D-DF7FE776E8A3}|SistemaLoja\\SistemaLoja.csproj|solutionrelative:sistemaloja\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CD36DA0D-7874-4B50-9E9D-DF7FE776E8A3}|SistemaLoja\\SistemaLoja.csproj|F:\\CSharp\\Sistema-com-Asp_Net_MVC\\SistemaLoja\\sistemaloja\\models\\ordemdetalhe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -41,14 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CD36DA0D-7874-4B50-9E9D-DF7FE776E8A3}|SistemaLoja\\SistemaLoja.csproj|F:\\CSharp\\Sistema-com-Asp_Net_MVC\\SistemaLoja\\sistemaloja\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD36DA0D-7874-4B50-9E9D-DF7FE776E8A3}|SistemaLoja\\SistemaLoja.csproj|solutionrelative:sistemaloja\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD36DA0D-7874-4B50-9E9D-DF7FE776E8A3}|SistemaLoja\\SistemaLoja.csproj|F:\\CSharp\\Sistema-com-Asp_Net_MVC\\SistemaLoja\\sistemaloja\\models\\ordemstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD36DA0D-7874-4B50-9E9D-DF7FE776E8A3}|SistemaLoja\\SistemaLoja.csproj|solutionrelative:sistemaloja\\models\\ordemstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD36DA0D-7874-4B50-9E9D-DF7FE776E8A3}|SistemaLoja\\SistemaLoja.csproj|F:\\CSharp\\Sistema-com-Asp_Net_MVC\\SistemaLoja\\sistemaloja\\models\\ordem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD36DA0D-7874-4B50-9E9D-DF7FE776E8A3}|SistemaLoja\\SistemaLoja.csproj|solutionrelative:sistemaloja\\models\\ordem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CD36DA0D-7874-4B50-9E9D-DF7FE776E8A3}|SistemaLoja\\SistemaLoja.csproj|F:\\CSharp\\Sistema-com-Asp_Net_MVC\\SistemaLoja\\sistemaloja\\models\\customizar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,11 +54,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "SistemaLojaContext.cs",
               "DocumentMoniker": "F:\\CSharp\\Sistema-com-Asp_Net_MVC\\SistemaLoja\\SistemaLoja\\Data\\SistemaLojaContext.cs",
               "RelativeDocumentMoniker": "SistemaLoja\\Data\\SistemaLojaContext.cs",
@@ -78,12 +66,11 @@
               "RelativeToolTip": "SistemaLoja\\Data\\SistemaLojaContext.cs",
               "ViewState": "AQIAABEAAAAAAAAAAAAcwCYAAABVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T23:40:28.147Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-16T23:40:28.147Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "Produto.cs",
               "DocumentMoniker": "F:\\CSharp\\Sistema-com-Asp_Net_MVC\\SistemaLoja\\SistemaLoja\\Models\\Produto.cs",
               "RelativeDocumentMoniker": "SistemaLoja\\Models\\Produto.cs",
@@ -91,12 +78,11 @@
               "RelativeToolTip": "SistemaLoja\\Models\\Produto.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAswBwAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T18:48:06.371Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-16T18:48:06.371Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "AddProduto.cshtml",
               "DocumentMoniker": "F:\\CSharp\\Sistema-com-Asp_Net_MVC\\SistemaLoja\\SistemaLoja\\Views\\Ordens\\AddProduto.cshtml",
               "RelativeDocumentMoniker": "SistemaLoja\\Views\\Ordens\\AddProduto.cshtml",
@@ -104,12 +90,11 @@
               "RelativeToolTip": "SistemaLoja\\Views\\Ordens\\AddProduto.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-16T18:39:04.491Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-16T18:39:04.491Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 10,
               "Title": "Index.cshtml",
               "DocumentMoniker": "F:\\CSharp\\Sistema-com-Asp_Net_MVC\\SistemaLoja\\SistemaLoja\\Views\\Pessoa\\Index.cshtml",
               "RelativeDocumentMoniker": "SistemaLoja\\Views\\Pessoa\\Index.cshtml",
@@ -121,46 +106,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "NovaOrdem.cshtml",
               "DocumentMoniker": "F:\\CSharp\\Sistema-com-Asp_Net_MVC\\SistemaLoja\\SistemaLoja\\Views\\Ordens\\NovaOrdem.cshtml",
               "RelativeDocumentMoniker": "SistemaLoja\\Views\\Ordens\\NovaOrdem.cshtml",
               "ToolTip": "F:\\CSharp\\Sistema-com-Asp_Net_MVC\\SistemaLoja\\SistemaLoja\\Views\\Ordens\\NovaOrdem.cshtml",
               "RelativeToolTip": "SistemaLoja\\Views\\Ordens\\NovaOrdem.cshtml",
-              "ViewState": "AQIAACoAAAAAAAAAAAAswDsAAABLAAAA",
+              "ViewState": "AQIAACYAAAAAAAAAAAAlwDUAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-09T00:01:32.371Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "OrdensController.cs",
               "DocumentMoniker": "F:\\CSharp\\Sistema-com-Asp_Net_MVC\\SistemaLoja\\SistemaLoja\\Controllers\\OrdensController.cs",
               "RelativeDocumentMoniker": "SistemaLoja\\Controllers\\OrdensController.cs",
               "ToolTip": "F:\\CSharp\\Sistema-com-Asp_Net_MVC\\SistemaLoja\\SistemaLoja\\Controllers\\OrdensController.cs",
               "RelativeToolTip": "SistemaLoja\\Controllers\\OrdensController.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAADwv0IAAAAqAAAA",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAYwFcAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-08T23:42:56.534Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProdutoOrdem.cs",
-              "DocumentMoniker": "F:\\CSharp\\Sistema-com-Asp_Net_MVC\\SistemaLoja\\SistemaLoja\\Models\\ProdutoOrdem.cs",
-              "RelativeDocumentMoniker": "SistemaLoja\\Models\\ProdutoOrdem.cs",
-              "ToolTip": "F:\\CSharp\\Sistema-com-Asp_Net_MVC\\SistemaLoja\\SistemaLoja\\Models\\ProdutoOrdem.cs",
-              "RelativeToolTip": "SistemaLoja\\Models\\ProdutoOrdem.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T23:33:55.497Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "OrderView.cs",
               "DocumentMoniker": "F:\\CSharp\\Sistema-com-Asp_Net_MVC\\SistemaLoja\\SistemaLoja\\ViewModels\\OrderView.cs",
               "RelativeDocumentMoniker": "SistemaLoja\\ViewModels\\OrderView.cs",
@@ -168,12 +140,11 @@
               "RelativeToolTip": "SistemaLoja\\ViewModels\\OrderView.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T23:26:30.533Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-08T23:26:30.533Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "OrdemDetalhe.cs",
               "DocumentMoniker": "F:\\CSharp\\Sistema-com-Asp_Net_MVC\\SistemaLoja\\SistemaLoja\\Models\\OrdemDetalhe.cs",
               "RelativeDocumentMoniker": "SistemaLoja\\Models\\OrdemDetalhe.cs",
@@ -181,38 +152,37 @@
               "RelativeToolTip": "SistemaLoja\\Models\\OrdemDetalhe.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABkAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T22:53:10.961Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-08T22:53:10.961Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 2,
               "Title": "OrdemStatus.cs",
               "DocumentMoniker": "F:\\CSharp\\Sistema-com-Asp_Net_MVC\\SistemaLoja\\SistemaLoja\\Models\\OrdemStatus.cs",
               "RelativeDocumentMoniker": "SistemaLoja\\Models\\OrdemStatus.cs",
               "ToolTip": "F:\\CSharp\\Sistema-com-Asp_Net_MVC\\SistemaLoja\\SistemaLoja\\Models\\OrdemStatus.cs",
               "RelativeToolTip": "SistemaLoja\\Models\\OrdemStatus.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAdAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-08T22:48:54.968Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 3,
               "Title": "Ordem.cs",
               "DocumentMoniker": "F:\\CSharp\\Sistema-com-Asp_Net_MVC\\SistemaLoja\\SistemaLoja\\Models\\Ordem.cs",
               "RelativeDocumentMoniker": "SistemaLoja\\Models\\Ordem.cs",
               "ToolTip": "F:\\CSharp\\Sistema-com-Asp_Net_MVC\\SistemaLoja\\SistemaLoja\\Models\\Ordem.cs",
               "RelativeToolTip": "SistemaLoja\\Models\\Ordem.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA+AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-08T22:45:46.304Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 9,
               "Title": "Customizar.cs",
               "DocumentMoniker": "F:\\CSharp\\Sistema-com-Asp_Net_MVC\\SistemaLoja\\SistemaLoja\\Models\\Customizar.cs",
               "RelativeDocumentMoniker": "SistemaLoja\\Models\\Customizar.cs",
@@ -220,34 +190,7 @@
               "RelativeToolTip": "SistemaLoja\\Models\\Customizar.cs",
               "ViewState": "AQIAABIAAAAAAAAAAAAgwCAAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T19:19:27.324Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FornecedorController.cs",
-              "DocumentMoniker": "F:\\CSharp\\Sistema-com-Asp_Net_MVC\\SistemaLoja\\SistemaLoja\\Controllers\\FornecedorController.cs",
-              "RelativeDocumentMoniker": "SistemaLoja\\Controllers\\FornecedorController.cs",
-              "ToolTip": "F:\\CSharp\\Sistema-com-Asp_Net_MVC\\SistemaLoja\\SistemaLoja\\Controllers\\FornecedorController.cs",
-              "RelativeToolTip": "SistemaLoja\\Controllers\\FornecedorController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T18:15:30.446Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ProdutoController.cs",
-              "DocumentMoniker": "F:\\CSharp\\Sistema-com-Asp_Net_MVC\\SistemaLoja\\SistemaLoja\\Controllers\\ProdutoController.cs",
-              "RelativeDocumentMoniker": "SistemaLoja\\Controllers\\ProdutoController.cs",
-              "ToolTip": "F:\\CSharp\\Sistema-com-Asp_Net_MVC\\SistemaLoja\\SistemaLoja\\Controllers\\ProdutoController.cs",
-              "RelativeToolTip": "SistemaLoja\\Controllers\\ProdutoController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T18:14:41.306Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-08T19:19:27.324Z"
             }
           ]
         }
